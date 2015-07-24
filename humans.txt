@@ -1,0 +1,59 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Lead Design, Code, and Direction: Philip Cheang
+  Site: http://philip.acheang.com
+  Twitter: @_phi
+  From: San Juan, Metro Manila, Philippines
+
+  A Sprinkling of JS Magic: Wilhansen Li
+  Site: http://wilhansen.li
+  Twitter: @wilhansen_li
+  From: Valenzuela, Metro Manila, Philippines
+  
+  Exuberance Moderator: Levi Tan Ong
+  Twitter: @levi_io 
+  From: Quezon City, Metro Manila, Philippines
+
+  Uncopied Copy: Kenneth Yu
+  Twitter: @kennethgyu
+  From: Quezon City, Metro Manila, Philippines
+
+
+/* THANKS */
+  Our friends and family
+
+
+/* SITE */
+  Last Updated: 2011/11/16
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, HTML5 boilerplate
+  Software: Sublime Text 2, Adobe Photoshop + Illustrator
+  
+
+                                    
+                               -o/-                       
+                               +oo//-                     
+                              :ooo+//:                    
+                             -ooooo///-                   
+                             /oooooo//:                   
+                            :ooooooo+//-                  
+                           -+oooooooo///-                 
+           -://////////////+oooooooooo++////////////::    
+            :+ooooooooooooooooooooooooooooooooooooo+:::-  
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-   
+                     -:+ooooooooooooooooo+:://////:--     
+                       /ooooooooooooooooo+//////:-        
+                      -ooooooooooooooooooo////-           
+                      /ooooooooo+oooooooooo//:            
+                     :ooooooo+/::/+oooooooo+//-           
+                    -oooooo/::///////+oooooo///-          
+                    /ooo+::://////:---:/+oooo//:          
+                   -o+/::///////:-      -:/+o+//-         
+                   :-:///////:-            -:/://         
+                     -////:-                 --//:        
+                       --                       -:        

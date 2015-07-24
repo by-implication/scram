@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Scram: What are YOU running from?</title>
+  <meta name="description" content="Tweet out your greatest fears for a chance to win a copy of SCRAM, an atmospheric first-person 3D running adventure for the iPhone!">
+  <meta name="author" content="By Implication, Inc., Philip Cheang, Levi Tan Ong, Wilhansen Li, Kenneth Yu">
+
+  <meta name="BONUS" content="
+  For being a cool curious dude/dudette, you get a promo code!
+  RTL9NHHR3MLF
+  if it doesn't work, then I guess you simply weren't Fast Enough. ;)
+  the code below isn't all that neat though. pardon the mess!">
+
+  <meta name="viewport" content="width=800">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://use.typekit.com/bds8rjt.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+
+    </header>
+    <div id="main" role="main">
+
+      <div class="intro animate">
+        <div class="bg bg1"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+        &nbsp;
+        <div class="content">
+          <img class="logo" src="img/scram-icon-top.png" alt="Scram, By Implication.">
+          <section class="panel">
+            <h1>Win a copy of our new game, <a href="http://scram.byimplication.com">Scram</a>.</h1>
+            <p>Answer our question on Twitter in the following format:</p>
+            <section class="tweet-example">
+              <img class="avatar" src="http://a3.twimg.com/sticky/default_profile_images/default_profile_4_normal.png">
+              <span class="tweet">
+              <span id="fears">
+                <span id="fear1" class="fear-sample">My mother-in-law.</span>
+                <span id="fear2" class="fear-sample hidden">Spiders.</span>
+                <span id="fear3" class="fear-sample hidden">Giant enemy crabs.</span>
+                <span id="fear4" class="fear-sample hidden">Mutant hamsters.</span>
+                <span id="fear5" class="fear-sample hidden">Flying cockroaches.</span>
+                <span id="fear6" class="fear-sample hidden">Debt Collectors.</span>
+                <span id="fear7" class="fear-sample hidden">Angry web developers.</span>
+                <span id="fear8" class="fear-sample hidden">My deadlines.</span>
+              </span>What are YOU running from?
+              <a class="hashtag" href="http://twitter.com/#!/search/realtime/%23scramgame">#scramgame</a> <a href="http://tiny.cc/scram">http://tiny.cc/scram</a></span>
+              <div class="tweet-example-arrow">
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                  data-url="http://tiny.cc/scram"
+                  data-counturl="http://scram.byimplication.com/promo"
+                  data-text="[type your answer]. What are YOU running from? #scramgame"
+                  data-related="byimplication:Our team account.,_phi,levi_io,kennethgyu,wilhansen_li"
+                  data-count="none">Tweet</a>
+                <img class="red-ink" src="img/hey-click-here.png">
+              </div>
+            </section>
+            <h2>Promo Mechanics</h2>
+            <ol>
+              <li>What are you running from? Write something interesting. We'll pick the ten (10) most fascinating entries and give their authors a promo code for Scram.</li>
+              <li>Promo starts November 24, 2011 at 9PM, and lasts until December 1, 2011 at midnight. Winners will be notified and announced by December 3, 2011.</li>
+              <li>One tweet counts as one entry for the promotion.
+              <p class="note">Note though, if your timeline is private, then we probably won't see it. There's not much we can do about that, sorry.</p>
+                  </li>
+              <li>Each entry must be in the proper format, with the proper hashtag and links included in the tweet.
+                <div class="good example"><div>GOOD</div>
+                  Spiders. What are YOU running from? <span>#scramgame</span> <span>http://tiny.cc/scram</span>
+                </div>
+                <div class="bad example"><div>BAD</div>
+                  Spiders. Whut R you running from?! <span>#omgwtf</span> <span>http://spam.byexplic8.co.cc</span>
+                </div>
+              </li>
+              <li>Participants may submit up to five (5) entries. Entries after the fifth will be ignored.</li>
+              <li>Winners may only win one copy of the game.</li>
+              <li>The organizers reserve the right to use the banhammer on users who are found cheating.</li>
+            </ol>
+            <section class="pitch">
+            <hr>
+              By the way: If you haven't seen our game yet, you should check it out! <br>
+              <ul><li>
+              <a href="http://scram.byimplication.com">http://scram.byimplication.com</a>
+              </li></ul>
+            </section>
+          </section>
+        </div>
+      </div>
+    <footer>
+
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <script type="text/javascript">
+    var blurredTwice = 0;
+    var clickedTwitter = 0;
+    $(document).ready( function () {
+      $(window).focus( function () {
+        $(".content").show();
+      });
+
+      $(".tweet-example").hover( function () {
+        $(window).off("blur");
+      });
+
+      $(window).blur( function () {
+        blurredTwice++;
+        if (blurredTwice < 2) {
+          if (clickedTwitter < 1) {
+              $(".content").hide();
+          }
+        } else if (clickedTwitter > 0) {
+          // do nothing
+        }
+    });
+    });
+
+      $(function() {
+
+        var timer = setInterval( showDiv, 2000);
+
+        var counter = 0;
+
+        function showDiv() {
+          if (counter == 0) { counter++; return; }
+
+          if (counter == 2) {
+             $(".fear-sample").removeClass("hidden");
+          }
+
+          $('span','#fears')
+            .stop()
+            .hide()
+            .filter( function() { return this.id.match('fear' + counter); })   
+            .show('fast');
+          counter == 8? counter = 0 : counter++; 
+
+        }
+
+      });
+
+  </script>
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UA-17669165-3'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
